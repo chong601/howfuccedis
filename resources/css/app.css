@@ -1,0 +1,93 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+body {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    /*font-family: cursive; and lets give Linux users the ability to see Comic Sans*/
+    margin: 5%;
+    text-align:center;
+}
+
+h1 {
+    font-size: 5em;
+}
+h2 {
+    font-size: 12px;
+}
+
+#header {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+    display:flex;
+}
+
+/*no color animation support for your particular browser? sucks for you and upgrade your browser*/
+@keyframes skittles {
+
+    00% { color: red; }
+    16% { color: magenta; }
+    32% { color: blue; }
+    48% { color: cyan; }
+    64% { color: green; }
+    72% { color: yellow; }
+    100%{ color: red; }
+
+}
+.websitename {
+    animation-name: skittles;
+    animation-iteration-count: infinite;
+    animation-duration: 3.14159s;
+}
+
+.equal-distance {
+    width: 25%;
+    margin:0;
+    display: inline-flex;
+    border: 1px solid red;
+    padding-top:0.3em;
+    padding-bottom:0.3em;
+    padding-left:0;
+    padding-right:0;
+    margin:0;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    text-decoration: none;
+    color:#000000;
+    justify-content: center;
+}
+
+.equal-distance:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.letter {
+    font-size: 12px;
+
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color: white;
+}
+
+#small {
+    margin-top: 5%;
+    font-size: 11px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+li {
+    padding: 1pt;
+}
