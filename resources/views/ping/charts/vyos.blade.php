@@ -80,4 +80,52 @@
          data-height="200"
          data-after="-600"
     ></div>
+    <div data-netdata="ping_ISP_Edge.host_10_55_48_22_rtt"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_10_55_100_246_rtt"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_2001_e68__b_42_rtt"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_2001_e68__b_4014_rtt"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_10_55_48_22_packet_loss"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_10_55_100_246_packet_loss"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_2001_e68__b_42_packet_loss"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
+    <div data-netdata="ping_ISP_Edge.host_2001_e68__b_4014_packet_loss"
+         data-chart-library="dygraph"
+         data-width="90%"
+         data-height="200"
+         data-after="-600"
+    ></div>
 </x-chart-layout>
