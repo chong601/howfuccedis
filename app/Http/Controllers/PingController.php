@@ -40,7 +40,7 @@ class PingController extends Controller
         if ($host === 'optiplex-5050') {
             return view('ping.charts.vyos', ['hostPath' => $target, 'systemName' => $pingHost->friendly_name]);
         } else {
-            return view('ping.charts.not-vyos', ['hostPath' => $target, 'systemName' => $pingHost->friendly_name]);
+            return view('ping.charts.default-chart', ['hostPath' => $target, 'systemName' => $pingHost->friendly_name]);
         }
     }
 }
