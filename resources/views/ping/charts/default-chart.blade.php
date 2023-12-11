@@ -38,7 +38,7 @@
          data-height="200"
          data-after="-600"
     ></div>
-    <div data-netdata="ping_ISP_Edge.host_10_55_48_22_rtt"
+    <div data-netdata="ping_ISP_Edge.host_10_55_48_24_rtt"
          data-chart-library="dygraph"
          data-width="90%"
          data-height="200"
@@ -62,7 +62,7 @@
          data-height="200"
          data-after="-600"
     ></div>
-    <div data-netdata="ping_ISP_Edge.host_10_55_48_22_packet_loss"
+    <div data-netdata="ping_ISP_Edge.host_10_55_48_24_packet_loss"
          data-chart-library="dygraph"
          data-width="90%"
          data-height="200"
